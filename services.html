@@ -8,36 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="assets/css/modern.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <style>
-        .page-hero { padding: 160px 0 80px; background: linear-gradient(180deg,#f8fafc 0%,#fff 100%); border-bottom: 1px solid #f1f5f9; }
-        .page-hero h1 { font-size: clamp(2.5rem,6vw,4rem); margin: 1rem 0 1.5rem; }
-        .page-hero p { font-size: 1.15rem; color: var(--text-muted); max-width: 600px; line-height: 1.8; }
-        .service-detail { display: grid; grid-template-columns: 180px 1fr; gap: 4rem; padding: 5rem 0; border-bottom: 1px solid #f1f5f9; align-items: start; }
-        .service-detail:last-child { border-bottom: none; }
-        .svc-aside { text-align: center; position: sticky; top: 120px; }
-        .svc-icon-lg { width: 80px; height: 80px; background: #f8fafc; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: var(--primary); margin: 0 auto 1rem; border: 1px solid #f1f5f9; }
-        .svc-num { font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; }
-        .svc-body h2 { font-size: 1.8rem; margin-bottom: 1rem; }
-        .svc-body > p { color: var(--text-muted); font-size: 1rem; line-height: 1.8; margin-bottom: 2rem; }
-        .feat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
-        .feat { background: #f8fafc; border-radius: 12px; padding: 1.25rem; }
-        .feat strong { display: block; font-size: 0.9rem; color: var(--text-main); margin-bottom: 0.25rem; }
-        .feat span { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
-        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-        .tag { padding: 0.35rem 0.9rem; background: rgba(46,49,146,0.05); color: var(--primary); border-radius: 50px; font-size: 0.82rem; font-weight: 600; }
-        @media(max-width:768px){ .service-detail{grid-template-columns:1fr;gap:2rem;} .svc-aside{position:static;} .feat-grid{grid-template-columns:1fr;} }
-    </style>
 </head>
 <body>
     <div class="bg-glow bg-glow-1"></div>
     <div class="bg-glow bg-glow-2"></div>
+
     <nav id="navbar">
         <div class="container">
             <a href="index.html" class="logo">
-                <img src="assets/img/logo_ig.jpg" alt="Logo" style="height:42px;border-radius:12px;margin-right:12px;border:1px solid var(--glass-border);">
+                <img src="assets/img/logo_ig.jpg" alt="Logo BOSSMED" style="height:42px;border-radius:12px;margin-right:12px;border:1px solid var(--glass-border);">
                 <span>BOSSMED</span> COMPANY
             </a>
             <div class="nav-links">
@@ -50,6 +33,7 @@
         </div>
     </nav>
 
+    <!-- Page Hero -->
     <div class="page-hero">
         <div class="container">
             <span class="section-label">Our Expertise</span>
@@ -58,8 +42,10 @@
         </div>
     </div>
 
-    <section style="padding:80px 0;">
+    <!-- Services List -->
+    <section style="padding:80px 0 100px;">
         <div class="container">
+
             <div class="service-detail">
                 <div class="svc-aside">
                     <div class="svc-icon-lg"><i class="fas fa-chalkboard-teacher"></i></div>
@@ -67,14 +53,14 @@
                 </div>
                 <div class="svc-body">
                     <h2>Digital Training</h2>
-                    <p>Workshop dan program training membekali tim Anda dengan pemahaman mendalam tentang ekosistem digital — dari strategi branding hingga eksekusi konten terukur.</p>
+                    <p>Workshop dan program training membekali tim Anda dengan pemahaman mendalam tentang ekosistem digital modern — dari strategi branding hingga eksekusi konten terukur.</p>
                     <div class="feat-grid">
                         <div class="feat"><strong>Brand Strategy Workshop</strong><span>Fondasi brand yang kuat dan terdiferensiasi</span></div>
                         <div class="feat"><strong>Content Mastery Training</strong><span>Teknik produksi konten engaging dan konversi-oriented</span></div>
                         <div class="feat"><strong>Digital Analytics Coaching</strong><span>Membaca data untuk keputusan strategis</span></div>
                         <div class="feat"><strong>Team Capability Building</strong><span>Pengembangan kapabilitas tim digital menyeluruh</span></div>
                     </div>
-                    <div class="tags"><span class="tag">Workshop</span><span class="tag">1-on-1 Coaching</span><span class="tag">Online & Offline</span></div>
+                    <div class="tags"><span class="tag">Workshop</span><span class="tag">1-on-1 Coaching</span><span class="tag">Group Training</span><span class="tag">Online & Offline</span></div>
                 </div>
             </div>
 
@@ -85,7 +71,7 @@
                 </div>
                 <div class="svc-body">
                     <h2>Content Creative</h2>
-                    <p>Produksi aset konten kreatif yang dirancang untuk membangun koneksi emosional dengan audiens dan mendorong aksi nyata.</p>
+                    <p>Produksi aset konten kreatif yang dirancang untuk membangun koneksi emosional dengan audiens dan mendorong aksi nyata — bukan sekadar visual yang indah.</p>
                     <div class="feat-grid">
                         <div class="feat"><strong>Visual Identity Design</strong><span>Desain grafis dan visual branding yang konsisten</span></div>
                         <div class="feat"><strong>Video Production</strong><span>Reels dan short-form content berkualitas tinggi</span></div>
@@ -103,7 +89,7 @@
                 </div>
                 <div class="svc-body">
                     <h2>Social Media Management</h2>
-                    <p>Pengelolaan media sosial menyeluruh — dari perencanaan konten hingga manajemen komunitas dengan fokus pertumbuhan organik berkelanjutan.</p>
+                    <p>Pengelolaan media sosial secara menyeluruh — dari perencanaan konten hingga manajemen komunitas — dengan fokus pertumbuhan organik berkelanjutan.</p>
                     <div class="feat-grid">
                         <div class="feat"><strong>Content Calendar Planning</strong><span>Perencanaan konten 30 hari yang strategis</span></div>
                         <div class="feat"><strong>Community Management</strong><span>Pengelolaan interaksi dan DM secara profesional</span></div>
@@ -121,14 +107,14 @@
                 </div>
                 <div class="svc-body">
                     <h2>Talent Management</h2>
-                    <p>Manajemen dan pengembangan creator digital untuk memperkuat eksposur brand Anda melalui kolaborasi strategis dan autentik.</p>
+                    <p>Manajemen dan pengembangan creator digital untuk memperkuat eksposur brand Anda melalui kolaborasi yang strategis dan autentik.</p>
                     <div class="feat-grid">
-                        <div class="feat"><strong>Influencer Partnership</strong><span>Kurasi kolaborasi dengan influencer relevan</span></div>
+                        <div class="feat"><strong>Influencer Partnership</strong><span>Kurasi kolaborasi dengan influencer yang relevan</span></div>
                         <div class="feat"><strong>Brand Ambassador Program</strong><span>Program ambassador yang sistematis dan terukur</span></div>
                         <div class="feat"><strong>Creator Development</strong><span>Pembinaan talent internal menjadi wajah brand</span></div>
                         <div class="feat"><strong>Campaign Collaboration</strong><span>Koordinasi kampanye konten end-to-end</span></div>
                     </div>
-                    <div class="tags"><span class="tag">KOL Management</span><span class="tag">Brand Ambassador</span><span class="tag">Collab Content</span></div>
+                    <div class="tags"><span class="tag">KOL Management</span><span class="tag">Brand Ambassador</span><span class="tag">Talent Scouting</span><span class="tag">Collab Content</span></div>
                 </div>
             </div>
 
@@ -139,44 +125,47 @@
                 </div>
                 <div class="svc-body">
                     <h2>Digital Platform & Web</h2>
-                    <p>Membangun ekosistem digital premium dan cepat yang dirancang untuk konversi — dari landing page hingga company profile yang merepresentasikan kelas bisnis Anda.</p>
+                    <p>Membangun ekosistem digital yang premium, cepat, dan dirancang untuk konversi tertinggi — dari landing page hingga company profile yang merepresentasikan kelas bisnis Anda.</p>
                     <div class="feat-grid">
-                        <div class="feat"><strong>Premium Landing Pages</strong><span>Halaman konversi mengubah visitor menjadi klien</span></div>
+                        <div class="feat"><strong>Premium Landing Pages</strong><span>Halaman konversi yang mengubah visitor jadi klien</span></div>
                         <div class="feat"><strong>Company Profile Website</strong><span>Website profesional yang merepresentasikan brand</span></div>
-                        <div class="feat"><strong>Performance Optimization</strong><span>Optimasi kecepatan, SEO, dan UX superior</span></div>
+                        <div class="feat"><strong>Performance Optimization</strong><span>Optimasi kecepatan, SEO, dan pengalaman pengguna</span></div>
                         <div class="feat"><strong>Maintenance & Support</strong><span>Dukungan teknis dan pemeliharaan berkelanjutan</span></div>
                     </div>
-                    <div class="tags"><span class="tag">Landing Page</span><span class="tag">Company Profile</span><span class="tag">UI/UX</span><span class="tag">SEO</span></div>
+                    <div class="tags"><span class="tag">Landing Page</span><span class="tag">Company Profile</span><span class="tag">UI/UX Design</span><span class="tag">SEO</span></div>
                 </div>
             </div>
+
         </div>
     </section>
 
+    <!-- CTA -->
     <section class="container">
         <div class="cta-section">
             <h2>Layanan mana yang Anda butuhkan?</h2>
-            <p>Konsultasikan kebutuhan bisnis Anda — kami bantu pilih kombinasi layanan paling tepat.</p>
-            <a href="https://wa.me/6285733577739" class="btn btn-white">Konsultasi Gratis</a>
+            <p>Konsultasikan kebutuhan bisnis Anda — kami bantu pilih kombinasi layanan yang paling tepat.</p>
+            <a href="https://wa.me/6285733577739" class="btn btn-white">Konsultasi Gratis Sekarang</a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
                     <div style="display:flex;align-items:center;gap:12px;margin-bottom:1.5rem;">
-                        <img src="assets/img/logo_ig.jpg" alt="Logo" style="height:50px;border-radius:14px;">
+                        <img src="assets/img/logo_ig.jpg" alt="Logo" style="height:48px;border-radius:13px;">
                         <h2 style="margin-bottom:0;">BOSSMED<span>.</span></h2>
                     </div>
                     <p>Partner pertumbuhan strategis untuk bisnis yang mengejar keunggulan di era digital.</p>
-                    <div style="margin-top:2rem;display:flex;gap:1rem;font-size:1.5rem;">
+                    <div style="margin-top:1.75rem;display:flex;gap:1rem;font-size:1.4rem;">
                         <a href="https://instagram.com/bossmed_company"><i class="fab fa-instagram"></i></a>
                         <a href="mailto:bossmed.company01@gmail.com"><i class="far fa-envelope"></i></a>
                         <a href="https://wa.me/6285733577739"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
-                    <h4>Direct Links</h4>
+                    <h4>Halaman</h4>
                     <ul>
                         <li><a href="index.html">Beranda</a></li>
                         <li><a href="framework.html">Framework</a></li>
@@ -186,12 +175,12 @@
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4>Contact Us</h4>
+                    <h4>Hubungi Kami</h4>
                     <ul>
-                        <li><i class="fas fa-user" style="margin-right:8px;"></i> Loh Jinawi</li>
-                        <li><i class="fab fa-whatsapp" style="margin-right:8px;"></i> 085733577739</li>
-                        <li><i class="far fa-envelope" style="margin-right:8px;"></i> bossmed.company01@gmail.com</li>
-                        <li><i class="fab fa-instagram" style="margin-right:8px;"></i> @bossmed_company</li>
+                        <li><i class="fas fa-user" style="margin-right:8px;color:var(--primary);"></i>Loh Jinawi</li>
+                        <li><i class="fab fa-whatsapp" style="margin-right:8px;color:var(--primary);"></i>085733577739</li>
+                        <li><i class="far fa-envelope" style="margin-right:8px;color:var(--primary);"></i>bossmed.company01@gmail.com</li>
+                        <li><i class="fab fa-instagram" style="margin-right:8px;color:var(--primary);"></i>@bossmed_company</li>
                     </ul>
                 </div>
             </div>
@@ -201,15 +190,16 @@
             </div>
         </div>
     </footer>
+
     <script>
         gsap.registerPlugin(ScrollTrigger);
-        document.querySelectorAll('.service-detail,.section-label,.section-title').forEach(el=>{
-            gsap.from(el,{scrollTrigger:{trigger:el,start:"top 88%",once:true},y:24,opacity:0,duration:0.7,ease:"power2.out"});
+        document.querySelectorAll('.service-detail,.section-label,.section-title').forEach(el => {
+            gsap.from(el, { scrollTrigger: { trigger: el, start: "top 88%", once: true }, y: 20, opacity: 0, duration: 0.7, ease: "power2.out" });
         });
-        window.addEventListener('scroll',()=>{
-            const nav=document.getElementById('navbar');
-            nav.style.background=window.scrollY>50?'rgba(255,255,255,0.97)':'rgba(255,255,255,0.85)';
-            nav.style.boxShadow=window.scrollY>50?'0 1px 0 rgba(0,0,0,0.06)':'none';
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            nav.style.background = window.scrollY > 50 ? 'rgba(255,255,255,0.97)' : 'rgba(255,255,255,0.85)';
+            nav.style.boxShadow = window.scrollY > 50 ? '0 1px 0 rgba(0,0,0,0.06)' : 'none';
         });
     </script>
 </body>

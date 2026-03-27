@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="32" viewBox="0 0 128 32" role="img" aria-label="Bossmed Company">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,2)">
+    <path d="M20 0c8 0 12 6 12 14s-4 14-12 14h-8c2-2 4-5 4-10s-2-8-4-10h8z" fill="url(#g)"/>
+    <rect x="2" y="4" width="12" height="6" rx="3" fill="#f97316"/>
+    <rect x="6" y="16" width="8" height="6" rx="3" fill="#f97316"/>
+  </g>
+  <text x="40" y="22" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#e5e7eb">BOSSMED</text>
+  <text x="40" y="30" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">COMPANY</text>
+</svg>
